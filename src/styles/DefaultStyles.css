@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+.text-logo{
+  font-family: "Playwrite IT Moderna", cursive;
+}
+
+.text-promo{
+  font-family: "Playwrite NG Modern", cursive;
+}
+
+.div-filtro{
+  background: rgb(15,23,42);
+  background: linear-gradient(200deg, rgba(15,23,42,1) 0%, rgba(15,23,42,1) 30%, rgba(59,131,134,1) 100%);
+}
+
+.date[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  border-radius: 50%;
+  padding: 4px;
+}
